@@ -2,4 +2,4 @@
 
 [![Mark's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=markbeep&theme=onedark&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)
 
-![](http://profile-counter.glitch.me/markbeep/count.svg)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/markbeep)
