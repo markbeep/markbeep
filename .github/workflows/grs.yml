@@ -27,6 +27,18 @@ jobs:
           path: profile/wakatime.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate GitHub metrics SVG
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/metrics.svg
+          output_action: none
+          base: header, repositories
+          plugin_lines: yes
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: percentage
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit cards
         run: |
           git config user.name "github-actions"
