@@ -16,7 +16,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=onedark
-          path: profile/stats.svg
+          path: stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate stats card
@@ -24,13 +24,13 @@ jobs:
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&theme=onedark&langs_count=10
-          path: profile/wakatime.svg
+          path: wakatime.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate GitHub metrics SVG
         uses: lowlighter/metrics@latest
         with:
-          filename: profile/metrics.svg
+          filename: metrics.svg
           output_action: none
           base: header, repositories
           plugin_lines: yes
@@ -43,6 +43,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add profile/*.svg
+          git add *.svg
           git commit -m "Update README cards" || exit 0
           git push
