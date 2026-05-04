@@ -33,6 +33,7 @@ jobs:
           filename: metrics.svg
           output_action: none
           base: header, repositories
+          repositories_batch: 25
           plugin_lines: yes
           plugin_languages: yes
           plugin_languages_indepth: yes
