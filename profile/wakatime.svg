@@ -126,7 +126,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >1,275 hrs 43 mins</text>
+      >1,275 hrs 46 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#df6d74"></rect>
@@ -310,7 +310,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >147 hrs 40 mins</text>
+      >147 hrs 45 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#df6d74"></rect>
