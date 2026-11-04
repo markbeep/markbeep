@@ -126,7 +126,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >1,294 hrs 52 mins</text>
+      >1,295 hrs 8 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#df6d74"></rect>
@@ -195,7 +195,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >202 hrs 43 mins</text>
+      >202 hrs 44 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#df6d74"></rect>
@@ -241,7 +241,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >187 hrs 4 mins</text>
+      >187 hrs 6 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect data-testid="progress-background" rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#df6d74"></rect>
